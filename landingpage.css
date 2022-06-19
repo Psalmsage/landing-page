@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: white;
+}
+
+/* main{
+
+} */
+
+@media(min-width:900px){
+    .hb,.mid,.third,.end,footer{
+        display: flex;
+        
+    }
+}
+
+.svg{
+    background-image: url(./bg-hero-desktop.svg); 
+    padding-top: 1px;
+}
+
+.dai{
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.log{
+    border: 1px;
+}
+
+#log{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.Fee{
+     padding: auto;
+    text-align: middle;
+    background-color:rgba(255, 255, 255, 0.952);
+    border: 1px;
+    border-radius: 30px;
+    padding: 7px 30px;
+    box-shadow:6px 12px 4px whitesmoke ;
+}
+
+#div{
+    color: white;
+    border: 1px;
+    border-color: rgb(255, 111, 135);
+    background-color: rgb(255, 111, 135);
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+}
+
+.hb{
+    /* display: flex; */
+    margin-left: 50px;
+    margin-right: 50px;
+    /* gap: 10px; */
+    box-shadow:6px 12px 4px whitesmoke ;
+}
+
+#hb1{
+    width:500px;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+}
+
+h1{
+    width:250px;
+}
+
+#h41{
+    width: 400px;
+}
+
+#h42{
+    width: 400px;
+}
+
+#h43{
+    width: 400px;
+}
+
+#hb2{
+     width: 50px;
+}
+
+#im{
+    max-width: 2000px;
+    max-height: 530px;
+}
+
+.mid{
+    background-color: white;
+    /* display: flex; */
+    padding-top: 100px;
+    width: 1250px;
+    height: 400px;
+    margin-left: 45px;
+    margin-right:45px ;
+    border-radius: 10px;
+    box-shadow:6px 12px 4px whitesmoke ;
+}
+
+.md{
+    border: 1px;
+    width:500px;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.mi{
+    width: 50px;
+     
+}
+
+#im1{
+    max-width: 900px;
+    max-height: 400px;
+    margin-left: 700px;
+}
+
+#im2{
+    max-width: 900px;
+    max-height: 400px;
+    /* margin-right: 700px; */
+}
+
+.third{
+    background-color: white;
+    justify-content: space-between;
+    /* display: flex; */
+    padding-top: 100px;
+    width: 1250px;
+    height: 400px;
+    margin-left: 45px;
+    margin-right:45px ;
+    border-radius: 10px;
+    box-shadow:6px 12px 4px whitesmoke ;
+}
+
+.md2{
+    border: 1px;
+    width:500px;
+    top: 50%;
+    left: 50%;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.end{
+    background-color: white;
+    /* display: flex; */
+    padding-top: 100px;
+    width: 1250px;
+    height: 400px;
+    margin-left: 45px;
+    margin-right:45px ;
+    border-radius: 10px;
+    box-shadow:6px 12px 4px whitesmoke ;
+}
+
+.end1{
+    width: 50px;
+}
+
+.end2{
+    border: 1px;
+    width:500px;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+#im3{
+    max-width: 900px;
+    max-height: 400px;
+    margin-left: 700px;
+}
+
+.floating{
+    width: 600px;
+    margin: 0 auto o 120px;
+    /* margin-left:400px ; */
+    box-shadow: 0 1px 7px 4px var(--shadow-);
+    padding: 88px 0;
+    position: relative;
+    top: 130px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.floattext{
+    text-align: center;
+     
+}
+
+.floatbutton{
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: rgb(255, 111, 135);
+    border:1px;
+    border-color: rgb(245, 148, 164);
+    border-radius: 25px;
+    /* margin-left: 70px; */
+}
+
+footer{
+    background-color:rgb(5, 50, 53);
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.footer_side1{
+    margin-left: 30px;
+    margin-top: 170px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.footer_side2{
+    margin-left: 110px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+    color: white;
+}
+.footer_side3{
+    margin-left: 160px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.footer_side4{
+    margin-left: 180px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+#foottext{
+    width: 400px;
+}
+
+#fts{
+    margin-top: 70px;
+}
+
+#footim{
+    filter: grayscale(100%);
+    filter: brightness(0%);
+    filter: invert(98%)sepia(100%)saturate(7%)hue-rotate(177deg)brightness(101%)contrast(102%);
+}
